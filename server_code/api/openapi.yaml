@@ -1,0 +1,17 @@
+openapi: 3.0.0
+info:
+  title: Saxo Bank API
+  version: Production
+  x-saxo-value: company-internal
+servers:
+- url: /
+paths:
+  /account:
+    post:
+      summary: Make a payment to specified account
+      operationId: updateAccount
+      responses:
+        "405":
+          description: Invalid input
+      x-swagger-router-controller: Default
+components: {}
