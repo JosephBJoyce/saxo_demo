@@ -2,7 +2,7 @@ openapi: 3.0.0
 info:
   title: Saxo Bank API
   version: Production
-  x-audience: company-internal
+  x-saxo-value: company-internal
 servers:
 - url: /
 paths:
